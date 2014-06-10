@@ -15,5 +15,5 @@ def fizz_number? the_number
 end
 
 def buzz_number? the_number
-  the_number == BUZZ_NUMBER
+  the_number % BUZZ_NUMBER == NO_REMAINDER
 end
