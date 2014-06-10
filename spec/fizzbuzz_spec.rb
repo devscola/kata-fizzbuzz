@@ -9,4 +9,8 @@ describe "FizzBuzz" do
   it "replies fizz" do
     expect(fizzbuzz(3)).to eq('Fizz')
   end
+
+  it "replies buzz" do
+    expect(fizzbuzz(5)).to eq('Buzz')
+  end
 end
