@@ -1,7 +1,4 @@
 def fizzbuzz the_number
-  if the_number == 3
-    'Fizz'
-  else
-    the_number
-  end
+  return 'Fizz' if the_number == 3
+  the_number
 end
