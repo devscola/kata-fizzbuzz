@@ -11,9 +11,13 @@ def fizzbuzz the_number
 end
 
 def fizz_number? the_number
-  the_number % FIZZ_NUMBER == NO_REMAINDER
+  divisible? the_number, FIZZ_NUMBER
 end
 
 def buzz_number? the_number
-  the_number % BUZZ_NUMBER == NO_REMAINDER
+  divisible? the_number, BUZZ_NUMBER
+end
+
+def divisible? first_number, second_number
+  first_number % second_number == NO_REMAINDER
 end
