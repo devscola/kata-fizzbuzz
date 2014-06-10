@@ -1,4 +1,7 @@
+FIZZ = 'Fizz'
+FIZZ_NUMBER = 3
+
 def fizzbuzz the_number
-  return 'Fizz' if the_number == 3
+  return FIZZ if the_number == FIZZ_NUMBER
   the_number
 end
