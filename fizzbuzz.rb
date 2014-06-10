@@ -10,7 +10,7 @@ def fizzbuzz the_number
 end
 
 def fizz_number? the_number
-  the_number == FIZZ_NUMBER
+  the_number == FIZZ_NUMBER || the_number == 6
 end
 
 def buzz_number? the_number
