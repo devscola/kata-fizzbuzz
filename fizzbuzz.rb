@@ -7,10 +7,9 @@ NO_REMAINDER = 0
 
 def fizzbuzz the_number
   result = EMPTY
-  result = the_number
-  result = FIZZ if fizz_number? the_number
-  result = BUZZ if buzz_number? the_number
-  result = FIZZ + BUZZ if (fizz_number? the_number) && (buzz_number? the_number)
+  result += FIZZ if fizz_number? the_number
+  result += BUZZ if buzz_number? the_number
+  result = the_number if result.empty?
   result
 end
 
