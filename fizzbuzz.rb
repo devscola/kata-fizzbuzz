@@ -1,11 +1,12 @@
 FIZZ = 'Fizz'
 BUZZ = 'Buzz'
+EMPTY = ''
 FIZZ_NUMBER = 3
 BUZZ_NUMBER = 5
 NO_REMAINDER = 0
 
 def fizzbuzz the_number
-  result = ''
+  result = EMPTY
   result = the_number
   result = FIZZ if fizz_number? the_number
   result = BUZZ if buzz_number? the_number
