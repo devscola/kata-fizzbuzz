@@ -16,4 +16,8 @@ describe "FizzBuzz" do
     expect(fizzbuzz(5)).to eq('Buzz')
     expect(fizzbuzz(10)).to eq('Buzz')
   end
+
+  it "replies fizzbuzz" do
+    expect(fizzbuzz(15)).to eq('FizzBuzz')
+  end
 end
