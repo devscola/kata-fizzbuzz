@@ -5,6 +5,7 @@ BUZZ_NUMBER = 5
 NO_REMAINDER = 0
 
 def fizzbuzz the_number
+  return FIZZ + BUZZ if (fizz_number? the_number) && (buzz_number? the_number)
   return FIZZ if fizz_number? the_number
   return BUZZ if buzz_number? the_number
   the_number
